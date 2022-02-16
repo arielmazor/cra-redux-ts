@@ -5,9 +5,9 @@
 # Installation
 
 ```zsh
-git clone https://github.com/arielmazor/cra-redux-ts.git
-cd cra-redux-ts
-npm & npm start
+npx create-react-app --template redux-ts my-project
+cd my-project
+npm start
 ```
 
 # Sturcture
