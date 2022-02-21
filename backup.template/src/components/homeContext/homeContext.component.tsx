@@ -29,7 +29,7 @@ const HomeContext = () => {
 
     if(!profile){
       debugger;
-      // dispatch(Actions.NEW_PROFILE(CreateNewProfile(name)))
+      dispatch(Actions.NEW_PROFILE(CreateNewProfile(name)))
     }else{
       navigate(`../profile/${profile.id}`);
     }

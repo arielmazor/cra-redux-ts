@@ -1,18 +1,34 @@
 {
-  "name": "cra-redux-ts",
-  "version": "1.0.0",
+  "name": "cra-template-redux-ts",
+  "version": "1.0.5",
   "bin":"./bin/cli.js",
   "description": "Ariel Mazor's React app template.",
+  "author": "Ariel Mazor",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/arielmazor/cra-redux-ts.git"
+  },
+  "keywords": [
+    "react",
+    "create-react-app",
+    "template"
+  ],
+  "license": "MIT",
+  "engines": {
+    "node": ">=14"
+  },
+  "files": [
+    "template",
+    "template.json"
+  ],
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.2",
     "@testing-library/react": "^12.1.2",
     "@testing-library/user-event": "^13.5.0",
-    "@types/classnames": "^2.3.1",
     "@types/jest": "^27.4.0",
     "@types/node": "^16.11.24",
     "@types/react": "^17.0.39",
     "@types/react-dom": "^17.0.11",
-    "classnames": "^2.3.1",
     "node-sass": "^7.0.1",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
@@ -48,7 +64,6 @@
     ]
   },
   "devDependencies": {
-    "redux-devtools-extension": "^2.13.9",
-    "typescript-plugin-css-modules": "^3.4.0"
+    "redux-devtools-extension": "^2.13.9"
   }
 }

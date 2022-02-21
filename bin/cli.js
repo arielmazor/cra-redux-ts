@@ -13,16 +13,20 @@ const runCommand = command =>{
 };
 
 const repoName = process.argv[2];
-const gitCheckoutCommand = `git clone --depth 1 ${repoName}`;
+const gitCheckoutCommand = `git clone https://github.com/arielmazor/cra-redux-ts.git ${repoName}`;
 const installDepsCommand = `cd ${repoName} && npm install`;
 
 console.log(`cloning the repo with name ${repoName}`);
 const checkedOut = runCommand(gitCheckoutCommand);
-if(!checkedOut) process.exit(code:-1);
-
+console.log(111111111111111111111111111111111)
+if(!checkedOut){
+  console.log("error");
+}
 console.log(`Installing dependencies for ${repoName}`);
 const installDeps = runCommand(installDepsCommand);
-if(!installDeps) process.exit(code:-1);
+if(!installDeps){
+  console.log("error");
+}
 
 console.log("Congratulations! You are ready to Code. Follow the following commands to start");
 console.log(`cd ${repoName} && npm start`);
