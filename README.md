@@ -12,7 +12,7 @@ npm start
 
 # Sturcture
 
-![carbon (3)](https://user-images.githubusercontent.com/64742335/154296685-adee2d23-cac1-4302-91ad-0df1a0695990.png)
+![carbon](https://user-images.githubusercontent.com/64742335/154989856-fd7c2e05-a5bc-4618-8091-8eb1018215d4.svg)
 
 # Available Scripts
 
